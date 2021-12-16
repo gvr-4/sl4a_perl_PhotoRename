@@ -1,0 +1,15 @@
+##
+## photorename/config/source_MSWin32.txt
+## 画像読み取り場所のリスト
+##
+C:/DCIM
+D:/DCIM
+E:/DCIM
+F:/DCIM
+G:/DCIM
+H:/DCIM
+I:/DCIM
+J:/DCIM
+K:/DCIM
+/doc/pictures/Eye-Fi
+/doc/pictures/Camera Roll

@@ -1,0 +1,2351 @@
+Photo Rename
+script[C:\doc\P\android\sdcard\sl4a\scripts\photoren.pl]
+ required[__FILE__]
+ args[]
+ running on[MSWin32]
+get_config( from[C:/doc/P/android/sdcard/sl4a/scripts/config/ExtSpec_MSWin32.txt]
+ item[0]=[\.([jJ][pP][[eE]*[gG])$]
+ item[1]=[\.(3gp)$]
+ item[2]=[\.(mp4)$]
+ item[3]=[\.(png)$]
+ item[4]=[\.(MOV)$]
+)
+get_config( from[C:/doc/P/android/sdcard/sl4a/scripts/config/source_MSWin32.txt]
+ item[0]=[C:/DCIM]
+ item[1]=[D:/DCIM]
+ item[2]=[E:/DCIM]
+ item[3]=[F:/DCIM]
+ item[4]=[G:/DCIM]
+ item[5]=[H:/DCIM]
+ item[6]=[I:/DCIM]
+ item[7]=[J:/DCIM]
+ item[8]=[K:/DCIM]
+ item[9]=[/doc/pictures/Eye-Fi]
+ item[10]=[/doc/pictures/Camera Roll]
+)
+get_config( from[C:/doc/P/android/sdcard/sl4a/scripts/config/dest_MSWin32.txt]
+ item[0]=[/doc/pictures/Camera/Album]
+)
+srcdir [C:/DCIM]
+list(1) [C:/DCIM/100/DSC_0001.JPG]
+list(2) [C:/DCIM/100/DSC_0002.JPG]
+list(3) [C:/DCIM/100/DSC_0003.JPG]
+list(4) [C:/DCIM/100/DSC_0004.JPG]
+list(5) [C:/DCIM/100/DSC_0005.JPG]
+list(6) [C:/DCIM/100/DSC_0006.JPG]
+list(7) [C:/DCIM/100/DSC_0007.JPG]
+list(8) [C:/DCIM/100/DSC_0008.JPG]
+list(9) [C:/DCIM/100/DSC_0009.JPG]
+list(10) [C:/DCIM/100/DSC_0010.JPG]
+list(11) [C:/DCIM/100/DSC_0011.JPG]
+list(12) [C:/DCIM/100/DSC_0012.JPG]
+list(13) [C:/DCIM/100/DSC_0013.JPG]
+list(14) [C:/DCIM/100/DSC_0014.JPG]
+list(15) [C:/DCIM/100/DSC_0015.JPG]
+list(16) [C:/DCIM/100/DSC_0016.JPG]
+list(17) [C:/DCIM/100/DSC_0017.JPG]
+list(18) [C:/DCIM/100/DSC_0018.JPG]
+list(19) [C:/DCIM/100/DSC_0019.JPG]
+list(20) [C:/DCIM/100/DSC_0020.JPG]
+list(21) [C:/DCIM/100/DSC_0021.JPG]
+list(22) [C:/DCIM/100/DSC_0022.JPG]
+list(23) [C:/DCIM/100/DSC_0023.JPG]
+list(24) [C:/DCIM/100/DSC_0024.JPG]
+list(25) [C:/DCIM/100/DSC_0025.JPG]
+list(26) [C:/DCIM/100/DSC_0026.JPG]
+list(27) [C:/DCIM/100/DSC_0027.JPG]
+list(28) [C:/DCIM/100/DSC_0028.JPG]
+list(29) [C:/DCIM/100/DSC_0029.JPG]
+list(30) [C:/DCIM/100/DSC_0030.JPG]
+list(31) [C:/DCIM/100/DSC_0031.JPG]
+list(32) [C:/DCIM/100/DSC_0032.JPG]
+list(33) [C:/DCIM/100/DSC_0033.JPG]
+list(34) [C:/DCIM/100/DSC_0034.JPG]
+list(35) [C:/DCIM/100/DSC_0035.JPG]
+list(36) [C:/DCIM/100/DSC_0036.JPG]
+list(37) [C:/DCIM/100/DSC_0037.JPG]
+list(38) [C:/DCIM/100/DSC_0038.JPG]
+list(39) [C:/DCIM/100/DSC_0039.JPG]
+list(40) [C:/DCIM/100/DSC_0040.JPG]
+list(41) [C:/DCIM/100/DSC_0041.JPG]
+list(42) [C:/DCIM/100/DSC_0042.JPG]
+list(43) [C:/DCIM/100/DSC_0043.JPG]
+list(44) [C:/DCIM/100/DSC_0044.JPG]
+list(45) [C:/DCIM/100/DSC_0045.JPG]
+list(46) [C:/DCIM/100/DSC_0046.JPG]
+list(47) [C:/DCIM/100/DSC_0047.JPG]
+list(48) [C:/DCIM/100/DSC_0048.JPG]
+list(49) [C:/DCIM/100/DSC_0049.JPG]
+list(50) [C:/DCIM/100/DSC_0050.JPG]
+list(51) [C:/DCIM/100/DSC_0051.JPG]
+list(52) [C:/DCIM/100/DSC_0052.JPG]
+list(53) [C:/DCIM/100/DSC_0053.JPG]
+list(54) [C:/DCIM/100/DSC_0054.JPG]
+list(55) [C:/DCIM/100/DSC_0055.JPG]
+list(56) [C:/DCIM/100/DSC_0056.JPG]
+list(57) [C:/DCIM/100/DSC_0057.JPG]
+list(58) [C:/DCIM/100/DSC_0058.JPG]
+list(59) [C:/DCIM/100/DSC_0059.JPG]
+list(60) [C:/DCIM/100/DSC_0060.JPG]
+list(61) [C:/DCIM/100/DSC_0061.JPG]
+list(62) [C:/DCIM/100/DSC_0062.JPG]
+list(63) [C:/DCIM/100/DSC_0063.JPG]
+list(64) [C:/DCIM/100/DSC_0064.JPG]
+list(65) [C:/DCIM/100/DSC_0065.JPG]
+list(66) [C:/DCIM/100/DSC_0066.JPG]
+list(67) [C:/DCIM/100/DSC_0067.JPG]
+list(68) [C:/DCIM/100/DSC_0068.JPG]
+list(69) [C:/DCIM/100/DSC_0069.JPG]
+list(70) [C:/DCIM/100/DSC_0070.JPG]
+list(71) [C:/DCIM/100/DSC_0071.JPG]
+list(72) [C:/DCIM/100/DSC_0072.JPG]
+list(73) [C:/DCIM/100/DSC_0073.JPG]
+list(74) [C:/DCIM/100/DSC_0074.JPG]
+list(75) [C:/DCIM/100/DSC_0075.JPG]
+list(76) [C:/DCIM/100/DSC_0076.JPG]
+list(77) [C:/DCIM/100/DSC_0077.JPG]
+list(78) [C:/DCIM/100/DSC_0078.JPG]
+list(79) [C:/DCIM/100/DSC_0079.JPG]
+list(80) [C:/DCIM/100/DSC_0080.JPG]
+list(81) [C:/DCIM/100/DSC_0081.JPG]
+list(82) [C:/DCIM/100/DSC_0082.JPG]
+list(83) [C:/DCIM/100/DSC_0083.JPG]
+list(84) [C:/DCIM/100/DSC_0084.JPG]
+list(85) [C:/DCIM/100/DSC_0085.JPG]
+list(86) [C:/DCIM/100/DSC_0086.JPG]
+list(87) [C:/DCIM/100/DSC_0087.JPG]
+list(88) [C:/DCIM/100/DSC_0088.JPG]
+list(89) [C:/DCIM/100/DSC_0089.JPG]
+list(90) [C:/DCIM/100/DSC_0090.JPG]
+list(91) [C:/DCIM/100/DSC_0091.JPG]
+list(92) [C:/DCIM/100/DSC_0092.JPG]
+list(93) [C:/DCIM/100/DSC_0093.JPG]
+list(94) [C:/DCIM/100/DSC_0094.JPG]
+list(95) [C:/DCIM/100/DSC_0095.JPG]
+list(96) [C:/DCIM/100/DSC_0096.JPG]
+list(97) [C:/DCIM/100/DSC_0097.JPG]
+list(98) [C:/DCIM/100/DSC_0098.JPG]
+list(99) [C:/DCIM/100/DSC_0099.JPG]
+list(100) [C:/DCIM/100/DSC_0100.JPG]
+list(101) [C:/DCIM/100/DSC_0101.JPG]
+list(102) [C:/DCIM/100/DSC_0102.JPG]
+list(103) [C:/DCIM/100/DSC_0103.JPG]
+list(104) [C:/DCIM/100/DSC_0104.JPG]
+list(105) [C:/DCIM/100/DSC_0105.JPG]
+list(106) [C:/DCIM/100/DSC_0106.JPG]
+list(107) [C:/DCIM/100/DSC_0107.JPG]
+list(108) [C:/DCIM/100/DSC_0108.JPG]
+list(109) [C:/DCIM/100/DSC_0109.JPG]
+list(110) [C:/DCIM/100/DSC_0110.JPG]
+list(111) [C:/DCIM/100/DSC_0111.JPG]
+list(112) [C:/DCIM/100/DSC_0112.JPG]
+list(113) [C:/DCIM/100/DSC_0113.JPG]
+list(114) [C:/DCIM/100/DSC_0114.JPG]
+list(115) [C:/DCIM/100/DSC_0115.JPG]
+list(116) [C:/DCIM/100/DSC_0116.JPG]
+list(117) [C:/DCIM/100/DSC_0117.JPG]
+list(118) [C:/DCIM/100/DSC_0118.JPG]
+list(119) [C:/DCIM/100/DSC_0119.JPG]
+list(120) [C:/DCIM/100/DSC_0120.JPG]
+list(121) [C:/DCIM/100/DSC_0121.JPG]
+list(122) [C:/DCIM/100/DSC_0122.JPG]
+list(123) [C:/DCIM/100/DSC_0123.JPG]
+list(124) [C:/DCIM/100/DSC_0124.JPG]
+list(125) [C:/DCIM/100/DSC_0125.JPG]
+list(126) [C:/DCIM/100/DSC_0126.JPG]
+list(127) [C:/DCIM/100/DSC_0127.JPG]
+list(128) [C:/DCIM/100/DSC_0128.JPG]
+list(129) [C:/DCIM/100/DSC_0129.JPG]
+list(130) [C:/DCIM/100/DSC_0130.JPG]
+list(131) [C:/DCIM/100/DSC_0131.JPG]
+list(132) [C:/DCIM/100/DSC_0132.JPG]
+list(133) [C:/DCIM/100/DSC_0133.JPG]
+list(134) [C:/DCIM/100/DSC_0134.JPG]
+list(135) [C:/DCIM/100/DSC_0135.JPG]
+list(136) [C:/DCIM/100IN/DSC_0001.JPG]
+list(137) [C:/DCIM/100IN/DSC_0002.JPG]
+list(138) [C:/DCIM/100IN/DSC_0003.JPG]
+list(139) [C:/DCIM/DSC_0001.JPG]
+list(140) [C:/DCIM/DSC_0002.JPG]
+list(141) [C:/DCIM/DSC_0003.JPG]
+list(142) [C:/DCIM/DSC_0004.JPG]
+list(143) [C:/DCIM/DSC_0005.JPG]
+list(144) [C:/DCIM/DSC_0006.JPG]
+list(145) [C:/DCIM/DSC_0007.JPG]
+list(146) [C:/DCIM/DSC_0008.JPG]
+list(147) [C:/DCIM/DSC_0009.JPG]
+list(148) [C:/DCIM/DSC_0010.JPG]
+list(149) [C:/DCIM/DSC_0011.JPG]
+list(150) [C:/DCIM/DSC_0012.JPG]
+list(151) [C:/DCIM/int_DCIM/DSC_0001.JPG]
+list(152) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021053.png]
+list(153) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021102.png]
+list(154) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021200.png]
+list(155) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021513.png]
+list(156) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210626-161537.png]
+list(157) [C:/DCIM/int_DCIM/Screenshots/Screenshot_20210626-175901.png]
+list(158) [C:/DCIM/SharpSlowVideo/120fps/210626_111418.mp4]
+srcdir [D:/DCIM]
+srcdir [E:/DCIM]
+srcdir [F:/DCIM]
+srcdir [G:/DCIM]
+srcdir [H:/DCIM]
+srcdir [I:/DCIM]
+srcdir [J:/DCIM]
+srcdir [K:/DCIM]
+srcdir [/doc/pictures/Eye-Fi]
+srcdir [/doc/pictures/Camera Roll]
+exifInfo->>
+ [CreateDate]=[2021:06:26 01:45:17]
+ [DateTimeOriginal]=[2021:06:26 01:45:17]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:15+09:00]
+ [FileModifyDate]=[2021:06:26 01:45:18+09:00]
+ [GPSDateStamp]=[2021:06:25]
+ [GPSDateTime]=[2021:06:25 16:06:48Z]
+ [ModifyDate]=[2021:06:26 01:45:17]
+ [SubSecCreateDate]=[2021:06:26 01:45:17.217871]
+ [SubSecDateTimeOriginal]=[2021:06:26 01:45:17.217871]
+ [SubSecModifyDate]=[2021:06:26 01:45:17.217871]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-014517.JPG <- C:/DCIM/100/DSC_0001.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:02:28]
+ [DateTimeOriginal]=[2021:06:26 10:02:28]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:19+09:00]
+ [FileModifyDate]=[2021:06:26 10:02:30+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:02:24Z]
+ [ModifyDate]=[2021:06:26 10:02:28]
+ [SubSecCreateDate]=[2021:06:26 10:02:28.455366]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:02:28.455366]
+ [SubSecModifyDate]=[2021:06:26 10:02:28.455366]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-100228.JPG <- C:/DCIM/100/DSC_0002.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:02:35]
+ [DateTimeOriginal]=[2021:06:26 10:02:35]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:20+09:00]
+ [FileModifyDate]=[2021:06:26 10:02:36+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:02:24Z]
+ [ModifyDate]=[2021:06:26 10:02:35]
+ [SubSecCreateDate]=[2021:06:26 10:02:35.661169]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:02:35.661169]
+ [SubSecModifyDate]=[2021:06:26 10:02:35.661169]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-100235.JPG <- C:/DCIM/100/DSC_0003.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:02:39]
+ [DateTimeOriginal]=[2021:06:26 10:02:39]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:20+09:00]
+ [FileModifyDate]=[2021:06:26 10:02:40+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:02:24Z]
+ [ModifyDate]=[2021:06:26 10:02:39]
+ [SubSecCreateDate]=[2021:06:26 10:02:39.817239]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:02:39.817239]
+ [SubSecModifyDate]=[2021:06:26 10:02:39.817239]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-100239.JPG <- C:/DCIM/100/DSC_0004.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:02:59]
+ [DateTimeOriginal]=[2021:06:26 10:02:59]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:21+09:00]
+ [FileModifyDate]=[2021:06:26 10:02:59+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:02:24Z]
+ [ModifyDate]=[2021:06:26 10:02:59]
+ [SubSecCreateDate]=[2021:06:26 10:02:59.005457]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:02:59.005457]
+ [SubSecModifyDate]=[2021:06:26 10:02:59.005457]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-100259.JPG <- C:/DCIM/100/DSC_0005.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:03:06]
+ [DateTimeOriginal]=[2021:06:26 10:03:06]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:22+09:00]
+ [FileModifyDate]=[2021:06:26 10:03:06+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:02:24Z]
+ [ModifyDate]=[2021:06:26 10:03:06]
+ [SubSecCreateDate]=[2021:06:26 10:03:06.203923]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:03:06.203923]
+ [SubSecModifyDate]=[2021:06:26 10:03:06.203923]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-100306.JPG <- C:/DCIM/100/DSC_0006.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:42:47]
+ [DateTimeOriginal]=[2021:06:26 10:42:47]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:22+09:00]
+ [FileModifyDate]=[2021:06:26 10:42:48+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:07:57Z]
+ [ModifyDate]=[2021:06:26 10:42:47]
+ [SubSecCreateDate]=[2021:06:26 10:42:47.157151]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:42:47.157151]
+ [SubSecModifyDate]=[2021:06:26 10:42:47.157151]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-104247.JPG <- C:/DCIM/100/DSC_0007.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:42:55]
+ [DateTimeOriginal]=[2021:06:26 10:42:55]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:23+09:00]
+ [FileModifyDate]=[2021:06:26 10:42:56+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:42:47Z]
+ [ModifyDate]=[2021:06:26 10:42:55]
+ [SubSecCreateDate]=[2021:06:26 10:42:55.625493]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:42:55.625493]
+ [SubSecModifyDate]=[2021:06:26 10:42:55.625493]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-104255.JPG <- C:/DCIM/100/DSC_0008.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:44:06]
+ [DateTimeOriginal]=[2021:06:26 10:44:06]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:24+09:00]
+ [FileModifyDate]=[2021:06:26 10:44:07+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:43:47Z]
+ [ModifyDate]=[2021:06:26 10:44:06]
+ [SubSecCreateDate]=[2021:06:26 10:44:06.209417]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:44:06.209417]
+ [SubSecModifyDate]=[2021:06:26 10:44:06.209417]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-104406.JPG <- C:/DCIM/100/DSC_0009.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:44:28]
+ [DateTimeOriginal]=[2021:06:26 10:44:28]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:24+09:00]
+ [FileModifyDate]=[2021:06:26 10:44:29+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:43:47Z]
+ [ModifyDate]=[2021:06:26 10:44:28]
+ [SubSecCreateDate]=[2021:06:26 10:44:28.748252]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:44:28.748252]
+ [SubSecModifyDate]=[2021:06:26 10:44:28.748252]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-104428.JPG <- C:/DCIM/100/DSC_0010.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:53:20]
+ [DateTimeOriginal]=[2021:06:26 10:53:20]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:25+09:00]
+ [FileModifyDate]=[2021:06:26 10:53:21+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:51:46Z]
+ [ModifyDate]=[2021:06:26 10:53:20]
+ [SubSecCreateDate]=[2021:06:26 10:53:20.666533]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:53:20.666533]
+ [SubSecModifyDate]=[2021:06:26 10:53:20.666533]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-105320.JPG <- C:/DCIM/100/DSC_0011.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:56:04]
+ [DateTimeOriginal]=[2021:06:26 10:56:04]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:26+09:00]
+ [FileModifyDate]=[2021:06:26 10:56:05+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:56:02Z]
+ [ModifyDate]=[2021:06:26 10:56:04]
+ [SubSecCreateDate]=[2021:06:26 10:56:04.136978]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:56:04.136978]
+ [SubSecModifyDate]=[2021:06:26 10:56:04.136978]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-105604.JPG <- C:/DCIM/100/DSC_0012.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:57:37]
+ [DateTimeOriginal]=[2021:06:26 10:57:37]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:26+09:00]
+ [FileModifyDate]=[2021:06:26 10:57:39+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:57:30Z]
+ [ModifyDate]=[2021:06:26 10:57:37]
+ [SubSecCreateDate]=[2021:06:26 10:57:37.797921]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:57:37.797921]
+ [SubSecModifyDate]=[2021:06:26 10:57:37.797921]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-105737.JPG <- C:/DCIM/100/DSC_0013.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 10:58:04]
+ [DateTimeOriginal]=[2021:06:26 10:58:04]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:27+09:00]
+ [FileModifyDate]=[2021:06:26 10:58:05+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 01:57:30Z]
+ [ModifyDate]=[2021:06:26 10:58:04]
+ [SubSecCreateDate]=[2021:06:26 10:58:04.773915]
+ [SubSecDateTimeOriginal]=[2021:06:26 10:58:04.773915]
+ [SubSecModifyDate]=[2021:06:26 10:58:04.773915]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-105804.JPG <- C:/DCIM/100/DSC_0014.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:03:47]
+ [DateTimeOriginal]=[2021:06:26 11:03:47]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:28+09:00]
+ [FileModifyDate]=[2021:06:26 11:03:48+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:03:37Z]
+ [ModifyDate]=[2021:06:26 11:03:47]
+ [SubSecCreateDate]=[2021:06:26 11:03:47.166999]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:03:47.166999]
+ [SubSecModifyDate]=[2021:06:26 11:03:47.166999]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110347.JPG <- C:/DCIM/100/DSC_0015.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:03:53]
+ [DateTimeOriginal]=[2021:06:26 11:03:53]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:28+09:00]
+ [FileModifyDate]=[2021:06:26 11:03:54+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:03:37Z]
+ [ModifyDate]=[2021:06:26 11:03:53]
+ [SubSecCreateDate]=[2021:06:26 11:03:53.647768]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:03:53.647768]
+ [SubSecModifyDate]=[2021:06:26 11:03:53.647768]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110353.JPG <- C:/DCIM/100/DSC_0016.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:04:00]
+ [DateTimeOriginal]=[2021:06:26 11:04:00]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:29+09:00]
+ [FileModifyDate]=[2021:06:26 11:04:01+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:03:37Z]
+ [ModifyDate]=[2021:06:26 11:04:00]
+ [SubSecCreateDate]=[2021:06:26 11:04:00.953926]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:04:00.953926]
+ [SubSecModifyDate]=[2021:06:26 11:04:00.953926]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110400.JPG <- C:/DCIM/100/DSC_0017.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:04:03]
+ [DateTimeOriginal]=[2021:06:26 11:04:03]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:29+09:00]
+ [FileModifyDate]=[2021:06:26 11:04:03+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:03:37Z]
+ [ModifyDate]=[2021:06:26 11:04:03]
+ [SubSecCreateDate]=[2021:06:26 11:04:03.406081]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:04:03.406081]
+ [SubSecModifyDate]=[2021:06:26 11:04:03.406081]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110403.JPG <- C:/DCIM/100/DSC_0018.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:04:23]
+ [DateTimeOriginal]=[2021:06:26 11:04:23]
+ [FileAccessDate]=[2021:06:28 21:41:18+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:30+09:00]
+ [FileModifyDate]=[2021:06:26 11:04:23+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:03:37Z]
+ [ModifyDate]=[2021:06:26 11:04:23]
+ [SubSecCreateDate]=[2021:06:26 11:04:23.283962]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:04:23.283962]
+ [SubSecModifyDate]=[2021:06:26 11:04:23.283962]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110423.JPG <- C:/DCIM/100/DSC_0019.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:05:26]
+ [DateTimeOriginal]=[2021:06:26 11:05:26]
+ [FileAccessDate]=[2021:06:28 21:41:19+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:30+09:00]
+ [FileModifyDate]=[2021:06:26 11:05:26+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:04:46Z]
+ [ModifyDate]=[2021:06:26 11:05:26]
+ [SubSecCreateDate]=[2021:06:26 11:05:26.199886]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:05:26.199886]
+ [SubSecModifyDate]=[2021:06:26 11:05:26.199886]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110526.JPG <- C:/DCIM/100/DSC_0020.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:05:35]
+ [DateTimeOriginal]=[2021:06:26 11:05:35]
+ [FileAccessDate]=[2021:06:28 21:41:19+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:31+09:00]
+ [FileModifyDate]=[2021:06:26 11:05:36+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:04:46Z]
+ [ModifyDate]=[2021:06:26 11:05:35]
+ [SubSecCreateDate]=[2021:06:26 11:05:35.644952]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:05:35.644952]
+ [SubSecModifyDate]=[2021:06:26 11:05:35.644952]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-110535.JPG <- C:/DCIM/100/DSC_0021.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:14:06]
+ [DateTimeOriginal]=[2021:06:26 11:14:06]
+ [FileAccessDate]=[2021:06:28 21:41:19+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:32+09:00]
+ [FileModifyDate]=[2021:06:26 11:14:07+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:14:04Z]
+ [ModifyDate]=[2021:06:26 11:14:06]
+ [SubSecCreateDate]=[2021:06:26 11:14:06.002027]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:14:06.002027]
+ [SubSecModifyDate]=[2021:06:26 11:14:06.002027]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111406.JPG <- C:/DCIM/100/DSC_0022.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:18:20]
+ [DateTimeOriginal]=[2021:06:26 11:18:20]
+ [FileAccessDate]=[2021:06:28 21:41:24+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:33+09:00]
+ [FileModifyDate]=[2021:06:26 11:18:20+09:00]
+ [ModifyDate]=[2021:06:26 11:18:20]
+ [SubSecCreateDate]=[2021:06:26 11:18:20.417560]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:18:20.417560]
+ [SubSecModifyDate]=[2021:06:26 11:18:20.417560]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111820.JPG <- C:/DCIM/100/DSC_0023.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:18:26]
+ [DateTimeOriginal]=[2021:06:26 11:18:26]
+ [FileAccessDate]=[2021:06:28 21:41:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:34+09:00]
+ [FileModifyDate]=[2021:06:26 11:18:27+09:00]
+ [ModifyDate]=[2021:06:26 11:18:26]
+ [SubSecCreateDate]=[2021:06:26 11:18:26.992260]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:18:26.992260]
+ [SubSecModifyDate]=[2021:06:26 11:18:26.992260]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111826.JPG <- C:/DCIM/100/DSC_0024.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:18:46]
+ [DateTimeOriginal]=[2021:06:26 11:18:46]
+ [FileAccessDate]=[2021:06:28 21:41:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:36+09:00]
+ [FileModifyDate]=[2021:06:26 11:18:47+09:00]
+ [ModifyDate]=[2021:06:26 11:18:46]
+ [SubSecCreateDate]=[2021:06:26 11:18:46.199688]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:18:46.199688]
+ [SubSecModifyDate]=[2021:06:26 11:18:46.199688]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111846.JPG <- C:/DCIM/100/DSC_0025.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:34:33]
+ [DateTimeOriginal]=[2021:06:26 11:34:33]
+ [FileAccessDate]=[2021:06:28 21:41:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:36+09:00]
+ [FileModifyDate]=[2021:06:26 11:34:34+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:34:25Z]
+ [ModifyDate]=[2021:06:26 11:34:33]
+ [SubSecCreateDate]=[2021:06:26 11:34:33.190465]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:34:33.190465]
+ [SubSecModifyDate]=[2021:06:26 11:34:33.190465]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-113433.JPG <- C:/DCIM/100/DSC_0026.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:02:35]
+ [DateTimeOriginal]=[2021:06:26 12:02:35]
+ [FileAccessDate]=[2021:06:28 21:41:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:37+09:00]
+ [FileModifyDate]=[2021:06:26 12:02:37+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:02:23Z]
+ [ModifyDate]=[2021:06:26 12:02:35]
+ [SubSecCreateDate]=[2021:06:26 12:02:35.814468]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:02:35.814468]
+ [SubSecModifyDate]=[2021:06:26 12:02:35.814468]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-120235.JPG <- C:/DCIM/100/DSC_0027.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:13:31]
+ [DateTimeOriginal]=[2021:06:26 12:13:31]
+ [FileAccessDate]=[2021:06:28 21:41:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:38+09:00]
+ [FileModifyDate]=[2021:06:26 12:13:32+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:13:29Z]
+ [ModifyDate]=[2021:06:26 12:13:31]
+ [SubSecCreateDate]=[2021:06:26 12:13:31.077715]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:13:31.077715]
+ [SubSecModifyDate]=[2021:06:26 12:13:31.077715]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121331.JPG <- C:/DCIM/100/DSC_0028.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:13:41]
+ [DateTimeOriginal]=[2021:06:26 12:13:41]
+ [FileAccessDate]=[2021:06:28 21:41:35+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:38+09:00]
+ [FileModifyDate]=[2021:06:26 12:13:41+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:13:29Z]
+ [ModifyDate]=[2021:06:26 12:13:41]
+ [SubSecCreateDate]=[2021:06:26 12:13:41.152635]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:13:41.152635]
+ [SubSecModifyDate]=[2021:06:26 12:13:41.152635]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121341.JPG <- C:/DCIM/100/DSC_0029.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:14:06]
+ [DateTimeOriginal]=[2021:06:26 12:14:06]
+ [FileAccessDate]=[2021:06:28 21:41:35+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:39+09:00]
+ [FileModifyDate]=[2021:06:26 12:14:07+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:13:29Z]
+ [ModifyDate]=[2021:06:26 12:14:06]
+ [SubSecCreateDate]=[2021:06:26 12:14:06.090049]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:14:06.090049]
+ [SubSecModifyDate]=[2021:06:26 12:14:06.090049]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121406.JPG <- C:/DCIM/100/DSC_0030.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:14:11]
+ [DateTimeOriginal]=[2021:06:26 12:14:11]
+ [FileAccessDate]=[2021:06:28 21:41:35+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:40+09:00]
+ [FileModifyDate]=[2021:06:26 12:14:11+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:13:29Z]
+ [ModifyDate]=[2021:06:26 12:14:11]
+ [SubSecCreateDate]=[2021:06:26 12:14:11.598278]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:14:11.598278]
+ [SubSecModifyDate]=[2021:06:26 12:14:11.598278]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121411.JPG <- C:/DCIM/100/DSC_0031.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:17:01]
+ [DateTimeOriginal]=[2021:06:26 12:17:01]
+ [FileAccessDate]=[2021:06:28 21:41:35+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:41+09:00]
+ [FileModifyDate]=[2021:06:26 12:17:03+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:16:19Z]
+ [ModifyDate]=[2021:06:26 12:17:01]
+ [SubSecCreateDate]=[2021:06:26 12:17:01.866698]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:17:01.866698]
+ [SubSecModifyDate]=[2021:06:26 12:17:01.866698]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121701.JPG <- C:/DCIM/100/DSC_0032.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:18:11]
+ [DateTimeOriginal]=[2021:06:26 12:18:11]
+ [FileAccessDate]=[2021:06:28 21:41:35+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:42+09:00]
+ [FileModifyDate]=[2021:06:26 12:18:12+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:18:05Z]
+ [ModifyDate]=[2021:06:26 12:18:11]
+ [SubSecCreateDate]=[2021:06:26 12:18:11.497941]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:18:11.497941]
+ [SubSecModifyDate]=[2021:06:26 12:18:11.497941]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121811.JPG <- C:/DCIM/100/DSC_0033.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:18:23]
+ [DateTimeOriginal]=[2021:06:26 12:18:23]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:43+09:00]
+ [FileModifyDate]=[2021:06:26 12:18:23+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:18:05Z]
+ [ModifyDate]=[2021:06:26 12:18:23]
+ [SubSecCreateDate]=[2021:06:26 12:18:23.030230]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:18:23.030230]
+ [SubSecModifyDate]=[2021:06:26 12:18:23.030230]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121823.JPG <- C:/DCIM/100/DSC_0034.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:18:35]
+ [DateTimeOriginal]=[2021:06:26 12:18:35]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:43+09:00]
+ [FileModifyDate]=[2021:06:26 12:18:35+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:18:05Z]
+ [ModifyDate]=[2021:06:26 12:18:35]
+ [SubSecCreateDate]=[2021:06:26 12:18:35.180703]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:18:35.180703]
+ [SubSecModifyDate]=[2021:06:26 12:18:35.180703]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-121835.JPG <- C:/DCIM/100/DSC_0035.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:21:14]
+ [DateTimeOriginal]=[2021:06:26 12:21:14]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:44+09:00]
+ [FileModifyDate]=[2021:06:26 12:21:15+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:20:36Z]
+ [ModifyDate]=[2021:06:26 12:21:14]
+ [SubSecCreateDate]=[2021:06:26 12:21:14.134653]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:21:14.134653]
+ [SubSecModifyDate]=[2021:06:26 12:21:14.134653]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122114.JPG <- C:/DCIM/100/DSC_0036.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:21:23]
+ [DateTimeOriginal]=[2021:06:26 12:21:23]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:45+09:00]
+ [FileModifyDate]=[2021:06:26 12:21:24+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:20:36Z]
+ [ModifyDate]=[2021:06:26 12:21:23]
+ [SubSecCreateDate]=[2021:06:26 12:21:23.561705]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:21:23.561705]
+ [SubSecModifyDate]=[2021:06:26 12:21:23.561705]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122123.JPG <- C:/DCIM/100/DSC_0037.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:22:18]
+ [DateTimeOriginal]=[2021:06:26 12:22:18]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:46+09:00]
+ [FileModifyDate]=[2021:06:26 12:22:19+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:21:36Z]
+ [ModifyDate]=[2021:06:26 12:22:18]
+ [SubSecCreateDate]=[2021:06:26 12:22:18.574122]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:22:18.574122]
+ [SubSecModifyDate]=[2021:06:26 12:22:18.574122]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122218.JPG <- C:/DCIM/100/DSC_0038.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:22:19]
+ [DateTimeOriginal]=[2021:06:26 12:22:19]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:47+09:00]
+ [FileModifyDate]=[2021:06:26 12:22:20+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:21:36Z]
+ [ModifyDate]=[2021:06:26 12:22:19]
+ [SubSecCreateDate]=[2021:06:26 12:22:19.801465]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:22:19.801465]
+ [SubSecModifyDate]=[2021:06:26 12:22:19.801465]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122219.JPG <- C:/DCIM/100/DSC_0039.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:25:14]
+ [DateTimeOriginal]=[2021:06:26 12:25:14]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:48+09:00]
+ [FileModifyDate]=[2021:06:26 12:25:15+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:25:09Z]
+ [ModifyDate]=[2021:06:26 12:25:14]
+ [SubSecCreateDate]=[2021:06:26 12:25:14.116284]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:25:14.116284]
+ [SubSecModifyDate]=[2021:06:26 12:25:14.116284]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122514.JPG <- C:/DCIM/100/DSC_0040.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:25:20]
+ [DateTimeOriginal]=[2021:06:26 12:25:20]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:49+09:00]
+ [FileModifyDate]=[2021:06:26 12:25:21+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:25:09Z]
+ [ModifyDate]=[2021:06:26 12:25:20]
+ [SubSecCreateDate]=[2021:06:26 12:25:20.488707]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:25:20.488707]
+ [SubSecModifyDate]=[2021:06:26 12:25:20.488707]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122520.JPG <- C:/DCIM/100/DSC_0041.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:25:54]
+ [DateTimeOriginal]=[2021:06:26 12:25:54]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:50+09:00]
+ [FileModifyDate]=[2021:06:26 12:25:56+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:25:09Z]
+ [ModifyDate]=[2021:06:26 12:25:54]
+ [SubSecCreateDate]=[2021:06:26 12:25:54.771098]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:25:54.771098]
+ [SubSecModifyDate]=[2021:06:26 12:25:54.771098]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122554.JPG <- C:/DCIM/100/DSC_0042.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:26:03]
+ [DateTimeOriginal]=[2021:06:26 12:26:03]
+ [FileAccessDate]=[2021:06:28 21:41:34+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:51+09:00]
+ [FileModifyDate]=[2021:06:26 12:28:42+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:25:09Z]
+ [ModifyDate]=[2021:06:26 12:26:03]
+ [SubSecCreateDate]=[2021:06:26 12:26:03.754409]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:26:03.754409]
+ [SubSecModifyDate]=[2021:06:26 12:26:03.754409]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-122603.JPG <- C:/DCIM/100/DSC_0043.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:42:30]
+ [DateTimeOriginal]=[2021:06:26 12:42:30]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:52+09:00]
+ [FileModifyDate]=[2021:06:26 12:42:31+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:42:28Z]
+ [ModifyDate]=[2021:06:26 12:42:30]
+ [SubSecCreateDate]=[2021:06:26 12:42:30.389725]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:42:30.389725]
+ [SubSecModifyDate]=[2021:06:26 12:42:30.389725]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124230.JPG <- C:/DCIM/100/DSC_0044.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:44:04]
+ [DateTimeOriginal]=[2021:06:26 12:44:04]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:53+09:00]
+ [FileModifyDate]=[2021:06:26 12:44:05+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:44:03Z]
+ [ModifyDate]=[2021:06:26 12:44:04]
+ [SubSecCreateDate]=[2021:06:26 12:44:04.695937]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:44:04.695937]
+ [SubSecModifyDate]=[2021:06:26 12:44:04.695937]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124404.JPG <- C:/DCIM/100/DSC_0045.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:44:07]
+ [DateTimeOriginal]=[2021:06:26 12:44:07]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:53+09:00]
+ [FileModifyDate]=[2021:06:26 12:44:08+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:44:03Z]
+ [ModifyDate]=[2021:06:26 12:44:07]
+ [SubSecCreateDate]=[2021:06:26 12:44:07.823531]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:44:07.823531]
+ [SubSecModifyDate]=[2021:06:26 12:44:07.823531]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124407.JPG <- C:/DCIM/100/DSC_0046.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:45:04]
+ [DateTimeOriginal]=[2021:06:26 12:45:04]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:54+09:00]
+ [FileModifyDate]=[2021:06:26 12:45:04+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:44:03Z]
+ [ModifyDate]=[2021:06:26 12:45:04]
+ [SubSecCreateDate]=[2021:06:26 12:45:04.010111]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:45:04.010111]
+ [SubSecModifyDate]=[2021:06:26 12:45:04.010111]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124504.JPG <- C:/DCIM/100/DSC_0047.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:45:54]
+ [DateTimeOriginal]=[2021:06:26 12:45:54]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:56+09:00]
+ [FileModifyDate]=[2021:06:26 12:45:54+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:45:05Z]
+ [ModifyDate]=[2021:06:26 12:45:54]
+ [SubSecCreateDate]=[2021:06:26 12:45:54.206346]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:45:54.206346]
+ [SubSecModifyDate]=[2021:06:26 12:45:54.206346]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124554.JPG <- C:/DCIM/100/DSC_0048.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:46:46]
+ [DateTimeOriginal]=[2021:06:26 12:46:46]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:56+09:00]
+ [FileModifyDate]=[2021:06:26 12:46:46+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:45:05Z]
+ [ModifyDate]=[2021:06:26 12:46:46]
+ [SubSecCreateDate]=[2021:06:26 12:46:46.422846]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:46:46.422846]
+ [SubSecModifyDate]=[2021:06:26 12:46:46.422846]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124646.JPG <- C:/DCIM/100/DSC_0049.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:47:15]
+ [DateTimeOriginal]=[2021:06:26 12:47:15]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:57+09:00]
+ [FileModifyDate]=[2021:06:26 12:47:15+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:47:05Z]
+ [ModifyDate]=[2021:06:26 12:47:15]
+ [SubSecCreateDate]=[2021:06:26 12:47:15.372654]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:47:15.372654]
+ [SubSecModifyDate]=[2021:06:26 12:47:15.372654]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124715.JPG <- C:/DCIM/100/DSC_0050.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:47:27]
+ [DateTimeOriginal]=[2021:06:26 12:47:27]
+ [FileAccessDate]=[2021:06:28 21:41:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:58+09:00]
+ [FileModifyDate]=[2021:06:26 12:47:27+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:47:05Z]
+ [ModifyDate]=[2021:06:26 12:47:27]
+ [SubSecCreateDate]=[2021:06:26 12:47:27.490281]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:47:27.490281]
+ [SubSecModifyDate]=[2021:06:26 12:47:27.490281]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124727.JPG <- C:/DCIM/100/DSC_0051.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:47:34]
+ [DateTimeOriginal]=[2021:06:26 12:47:34]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:39:59+09:00]
+ [FileModifyDate]=[2021:06:26 12:47:35+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:47:05Z]
+ [ModifyDate]=[2021:06:26 12:47:34]
+ [SubSecCreateDate]=[2021:06:26 12:47:34.800153]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:47:34.800153]
+ [SubSecModifyDate]=[2021:06:26 12:47:34.800153]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124734.JPG <- C:/DCIM/100/DSC_0052.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:49:07]
+ [DateTimeOriginal]=[2021:06:26 12:49:07]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:00+09:00]
+ [FileModifyDate]=[2021:06:26 12:49:08+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:49:05Z]
+ [ModifyDate]=[2021:06:26 12:49:07]
+ [SubSecCreateDate]=[2021:06:26 12:49:07.642721]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:49:07.642721]
+ [SubSecModifyDate]=[2021:06:26 12:49:07.642721]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124907.JPG <- C:/DCIM/100/DSC_0053.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:49:57]
+ [DateTimeOriginal]=[2021:06:26 12:49:57]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:01+09:00]
+ [FileModifyDate]=[2021:06:26 12:49:57+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:49:05Z]
+ [ModifyDate]=[2021:06:26 12:49:57]
+ [SubSecCreateDate]=[2021:06:26 12:49:57.410547]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:49:57.410547]
+ [SubSecModifyDate]=[2021:06:26 12:49:57.410547]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-124957.JPG <- C:/DCIM/100/DSC_0054.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:50:38]
+ [DateTimeOriginal]=[2021:06:26 12:50:38]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:03+09:00]
+ [FileModifyDate]=[2021:06:26 12:50:39+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:50:20Z]
+ [ModifyDate]=[2021:06:26 12:50:38]
+ [SubSecCreateDate]=[2021:06:26 12:50:38.388274]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:50:38.388274]
+ [SubSecModifyDate]=[2021:06:26 12:50:38.388274]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-125038.JPG <- C:/DCIM/100/DSC_0055.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:51:21]
+ [DateTimeOriginal]=[2021:06:26 12:51:21]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:03+09:00]
+ [FileModifyDate]=[2021:06:26 12:51:21+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:50:57Z]
+ [ModifyDate]=[2021:06:26 12:51:21]
+ [SubSecCreateDate]=[2021:06:26 12:51:21.316587]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:51:21.316587]
+ [SubSecModifyDate]=[2021:06:26 12:51:21.316587]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-125121.JPG <- C:/DCIM/100/DSC_0056.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:51:58]
+ [DateTimeOriginal]=[2021:06:26 12:51:58]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:04+09:00]
+ [FileModifyDate]=[2021:06:26 12:51:58+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:51:42Z]
+ [ModifyDate]=[2021:06:26 12:51:58]
+ [SubSecCreateDate]=[2021:06:26 12:51:58.087569]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:51:58.087569]
+ [SubSecModifyDate]=[2021:06:26 12:51:58.087569]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-125158.JPG <- C:/DCIM/100/DSC_0057.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:52:48]
+ [DateTimeOriginal]=[2021:06:26 12:52:48]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:05+09:00]
+ [FileModifyDate]=[2021:06:26 12:52:48+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:52:32Z]
+ [ModifyDate]=[2021:06:26 12:52:48]
+ [SubSecCreateDate]=[2021:06:26 12:52:48.315189]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:52:48.315189]
+ [SubSecModifyDate]=[2021:06:26 12:52:48.315189]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-125248.JPG <- C:/DCIM/100/DSC_0058.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 12:53:28]
+ [DateTimeOriginal]=[2021:06:26 12:53:28]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:06+09:00]
+ [FileModifyDate]=[2021:06:26 12:53:28+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 03:52:32Z]
+ [ModifyDate]=[2021:06:26 12:53:28]
+ [SubSecCreateDate]=[2021:06:26 12:53:28.465032]
+ [SubSecDateTimeOriginal]=[2021:06:26 12:53:28.465032]
+ [SubSecModifyDate]=[2021:06:26 12:53:28.465032]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-125328.JPG <- C:/DCIM/100/DSC_0059.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 13:06:43]
+ [DateTimeOriginal]=[2021:06:26 13:06:43]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:06+09:00]
+ [FileModifyDate]=[2021:06:26 13:06:44+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 04:06:38Z]
+ [ModifyDate]=[2021:06:26 13:06:43]
+ [SubSecCreateDate]=[2021:06:26 13:06:43.200844]
+ [SubSecDateTimeOriginal]=[2021:06:26 13:06:43.200844]
+ [SubSecModifyDate]=[2021:06:26 13:06:43.200844]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-130643.JPG <- C:/DCIM/100/DSC_0060.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 13:06:59]
+ [DateTimeOriginal]=[2021:06:26 13:06:59]
+ [FileAccessDate]=[2021:06:28 21:41:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:07+09:00]
+ [FileModifyDate]=[2021:06:26 13:07:00+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 04:06:38Z]
+ [ModifyDate]=[2021:06:26 13:06:59]
+ [SubSecCreateDate]=[2021:06:26 13:06:59.087383]
+ [SubSecDateTimeOriginal]=[2021:06:26 13:06:59.087383]
+ [SubSecModifyDate]=[2021:06:26 13:06:59.087383]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-130659.JPG <- C:/DCIM/100/DSC_0061.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:46:30]
+ [DateTimeOriginal]=[2021:06:26 14:46:30]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:09+09:00]
+ [FileModifyDate]=[2021:06:26 14:46:31+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:46:22Z]
+ [ModifyDate]=[2021:06:26 14:46:30]
+ [SubSecCreateDate]=[2021:06:26 14:46:30.893400]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:46:30.893400]
+ [SubSecModifyDate]=[2021:06:26 14:46:30.893400]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-144630.JPG <- C:/DCIM/100/DSC_0062.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:47:15]
+ [DateTimeOriginal]=[2021:06:26 14:47:15]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:09+09:00]
+ [FileModifyDate]=[2021:06:26 14:47:16+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:47:12Z]
+ [ModifyDate]=[2021:06:26 14:47:15]
+ [SubSecCreateDate]=[2021:06:26 14:47:15.875778]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:47:15.875778]
+ [SubSecModifyDate]=[2021:06:26 14:47:15.875778]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-144715.JPG <- C:/DCIM/100/DSC_0063.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:47:23]
+ [DateTimeOriginal]=[2021:06:26 14:47:23]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:10+09:00]
+ [FileModifyDate]=[2021:06:26 14:47:24+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:47:12Z]
+ [ModifyDate]=[2021:06:26 14:47:23]
+ [SubSecCreateDate]=[2021:06:26 14:47:23.941506]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:47:23.941506]
+ [SubSecModifyDate]=[2021:06:26 14:47:23.941506]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-144723.JPG <- C:/DCIM/100/DSC_0064.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:47:28]
+ [DateTimeOriginal]=[2021:06:26 14:47:28]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:10+09:00]
+ [FileModifyDate]=[2021:06:26 14:47:31+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:47:12Z]
+ [ModifyDate]=[2021:06:26 14:47:28]
+ [SubSecCreateDate]=[2021:06:26 14:47:28.661720]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:47:28.661720]
+ [SubSecModifyDate]=[2021:06:26 14:47:28.661720]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-144728.JPG <- C:/DCIM/100/DSC_0065.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:51:17]
+ [DateTimeOriginal]=[2021:06:26 14:51:17]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:13+09:00]
+ [FileModifyDate]=[2021:06:26 14:51:18+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:51:06Z]
+ [ModifyDate]=[2021:06:26 14:51:17]
+ [SubSecCreateDate]=[2021:06:26 14:51:17.257578]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:51:17.257578]
+ [SubSecModifyDate]=[2021:06:26 14:51:17.257578]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145117.JPG <- C:/DCIM/100/DSC_0066.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:52:13]
+ [DateTimeOriginal]=[2021:06:26 14:52:13]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:14+09:00]
+ [FileModifyDate]=[2021:06:26 14:52:13+09:00]
+ [ModifyDate]=[2021:06:26 14:52:13]
+ [SubSecCreateDate]=[2021:06:26 14:52:13.304129]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:52:13.304129]
+ [SubSecModifyDate]=[2021:06:26 14:52:13.304129]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145213.JPG <- C:/DCIM/100/DSC_0067.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:52:36]
+ [DateTimeOriginal]=[2021:06:26 14:52:36]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:14+09:00]
+ [FileModifyDate]=[2021:06:26 14:52:37+09:00]
+ [ModifyDate]=[2021:06:26 14:52:36]
+ [SubSecCreateDate]=[2021:06:26 14:52:36.585480]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:52:36.585480]
+ [SubSecModifyDate]=[2021:06:26 14:52:36.585480]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145236.JPG <- C:/DCIM/100/DSC_0068.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:54:05]
+ [DateTimeOriginal]=[2021:06:26 14:54:05]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:15+09:00]
+ [FileModifyDate]=[2021:06:26 14:54:06+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:54:00Z]
+ [ModifyDate]=[2021:06:26 14:54:05]
+ [SubSecCreateDate]=[2021:06:26 14:54:05.515454]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:54:05.515454]
+ [SubSecModifyDate]=[2021:06:26 14:54:05.515454]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145405.JPG <- C:/DCIM/100/DSC_0069.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:54:30]
+ [DateTimeOriginal]=[2021:06:26 14:54:30]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:16+09:00]
+ [FileModifyDate]=[2021:06:26 14:54:30+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:54:00Z]
+ [ModifyDate]=[2021:06:26 14:54:30]
+ [SubSecCreateDate]=[2021:06:26 14:54:30.397484]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:54:30.397484]
+ [SubSecModifyDate]=[2021:06:26 14:54:30.397484]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145430.JPG <- C:/DCIM/100/DSC_0070.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:56:07]
+ [DateTimeOriginal]=[2021:06:26 14:56:07]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:17+09:00]
+ [FileModifyDate]=[2021:06:26 14:56:08+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:56:02Z]
+ [ModifyDate]=[2021:06:26 14:56:07]
+ [SubSecCreateDate]=[2021:06:26 14:56:07.648729]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:56:07.648729]
+ [SubSecModifyDate]=[2021:06:26 14:56:07.648729]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145607.JPG <- C:/DCIM/100/DSC_0071.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:56:21]
+ [DateTimeOriginal]=[2021:06:26 14:56:21]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:17+09:00]
+ [FileModifyDate]=[2021:06:26 14:56:21+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 05:56:02Z]
+ [ModifyDate]=[2021:06:26 14:56:21]
+ [SubSecCreateDate]=[2021:06:26 14:56:21.132783]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:56:21.132783]
+ [SubSecModifyDate]=[2021:06:26 14:56:21.132783]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145621.JPG <- C:/DCIM/100/DSC_0072.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 15:01:41]
+ [DateTimeOriginal]=[2021:06:26 15:01:41]
+ [FileAccessDate]=[2021:06:28 21:41:31+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:18+09:00]
+ [FileModifyDate]=[2021:06:26 15:01:42+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 06:01:39Z]
+ [ModifyDate]=[2021:06:26 15:01:41]
+ [SubSecCreateDate]=[2021:06:26 15:01:41.652535]
+ [SubSecDateTimeOriginal]=[2021:06:26 15:01:41.652535]
+ [SubSecModifyDate]=[2021:06:26 15:01:41.652535]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-150141.JPG <- C:/DCIM/100/DSC_0073.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 15:01:49]
+ [DateTimeOriginal]=[2021:06:26 15:01:49]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:19+09:00]
+ [FileModifyDate]=[2021:06:26 15:01:49+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 06:01:39Z]
+ [ModifyDate]=[2021:06:26 15:01:49]
+ [SubSecCreateDate]=[2021:06:26 15:01:49.422898]
+ [SubSecDateTimeOriginal]=[2021:06:26 15:01:49.422898]
+ [SubSecModifyDate]=[2021:06:26 15:01:49.422898]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-150149.JPG <- C:/DCIM/100/DSC_0074.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 15:04:57]
+ [DateTimeOriginal]=[2021:06:26 15:04:57]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:21+09:00]
+ [FileModifyDate]=[2021:06:26 15:04:59+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 06:04:53Z]
+ [ModifyDate]=[2021:06:26 15:04:57]
+ [SubSecCreateDate]=[2021:06:26 15:04:57.806546]
+ [SubSecDateTimeOriginal]=[2021:06:26 15:04:57.806546]
+ [SubSecModifyDate]=[2021:06:26 15:04:57.806546]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-150457.JPG <- C:/DCIM/100/DSC_0075.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 15:05:11]
+ [DateTimeOriginal]=[2021:06:26 15:05:11]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:21+09:00]
+ [FileModifyDate]=[2021:06:26 15:05:11+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 06:04:53Z]
+ [ModifyDate]=[2021:06:26 15:05:11]
+ [SubSecCreateDate]=[2021:06:26 15:05:11.180606]
+ [SubSecDateTimeOriginal]=[2021:06:26 15:05:11.180606]
+ [SubSecModifyDate]=[2021:06:26 15:05:11.180606]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-150511.JPG <- C:/DCIM/100/DSC_0076.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 15:14:29]
+ [DateTimeOriginal]=[2021:06:26 15:14:29]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:22+09:00]
+ [FileModifyDate]=[2021:06:26 15:14:30+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 06:14:24Z]
+ [ModifyDate]=[2021:06:26 15:14:29]
+ [SubSecCreateDate]=[2021:06:26 15:14:29.435449]
+ [SubSecDateTimeOriginal]=[2021:06:26 15:14:29.435449]
+ [SubSecModifyDate]=[2021:06:26 15:14:29.435449]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-151429.JPG <- C:/DCIM/100/DSC_0077.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 16:31:54]
+ [DateTimeOriginal]=[2021:06:26 16:31:54]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:23+09:00]
+ [FileModifyDate]=[2021:06:26 16:31:56+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 07:08:21Z]
+ [ModifyDate]=[2021:06:26 16:31:54]
+ [SubSecCreateDate]=[2021:06:26 16:31:54.481882]
+ [SubSecDateTimeOriginal]=[2021:06:26 16:31:54.481882]
+ [SubSecModifyDate]=[2021:06:26 16:31:54.481882]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-163154.JPG <- C:/DCIM/100/DSC_0078.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 16:31:58]
+ [DateTimeOriginal]=[2021:06:26 16:31:58]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:24+09:00]
+ [FileModifyDate]=[2021:06:26 16:31:59+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 07:08:21Z]
+ [ModifyDate]=[2021:06:26 16:31:58]
+ [SubSecCreateDate]=[2021:06:26 16:31:58.647687]
+ [SubSecDateTimeOriginal]=[2021:06:26 16:31:58.647687]
+ [SubSecModifyDate]=[2021:06:26 16:31:58.647687]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-163158.JPG <- C:/DCIM/100/DSC_0079.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 16:32:03]
+ [DateTimeOriginal]=[2021:06:26 16:32:03]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:26+09:00]
+ [FileModifyDate]=[2021:06:26 16:32:03+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 07:08:21Z]
+ [ModifyDate]=[2021:06:26 16:32:03]
+ [SubSecCreateDate]=[2021:06:26 16:32:03.334273]
+ [SubSecDateTimeOriginal]=[2021:06:26 16:32:03.334273]
+ [SubSecModifyDate]=[2021:06:26 16:32:03.334273]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-163203.JPG <- C:/DCIM/100/DSC_0080.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 16:32:09]
+ [DateTimeOriginal]=[2021:06:26 16:32:09]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:27+09:00]
+ [FileModifyDate]=[2021:06:26 16:32:10+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 07:08:21Z]
+ [ModifyDate]=[2021:06:26 16:32:09]
+ [SubSecCreateDate]=[2021:06:26 16:32:09.889326]
+ [SubSecDateTimeOriginal]=[2021:06:26 16:32:09.889326]
+ [SubSecModifyDate]=[2021:06:26 16:32:09.889326]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-163209.JPG <- C:/DCIM/100/DSC_0081.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 16:32:14]
+ [DateTimeOriginal]=[2021:06:26 16:32:14]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:27+09:00]
+ [FileModifyDate]=[2021:06:26 16:32:14+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 07:08:21Z]
+ [ModifyDate]=[2021:06:26 16:32:14]
+ [SubSecCreateDate]=[2021:06:26 16:32:14.188958]
+ [SubSecDateTimeOriginal]=[2021:06:26 16:32:14.188958]
+ [SubSecModifyDate]=[2021:06:26 16:32:14.188958]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-163214.JPG <- C:/DCIM/100/DSC_0082.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 17:56:41]
+ [DateTimeOriginal]=[2021:06:26 17:56:41]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:28+09:00]
+ [FileModifyDate]=[2021:06:26 17:56:43+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 08:56:31Z]
+ [ModifyDate]=[2021:06:26 17:56:41]
+ [SubSecCreateDate]=[2021:06:26 17:56:41.529971]
+ [SubSecDateTimeOriginal]=[2021:06:26 17:56:41.529971]
+ [SubSecModifyDate]=[2021:06:26 17:56:41.529971]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-175641.JPG <- C:/DCIM/100/DSC_0083.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 17:57:38]
+ [DateTimeOriginal]=[2021:06:26 17:57:38]
+ [FileAccessDate]=[2021:06:28 21:41:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:30+09:00]
+ [FileModifyDate]=[2021:06:26 17:57:38+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 08:57:09Z]
+ [ModifyDate]=[2021:06:26 17:57:38]
+ [SubSecCreateDate]=[2021:06:26 17:57:38.266872]
+ [SubSecDateTimeOriginal]=[2021:06:26 17:57:38.266872]
+ [SubSecModifyDate]=[2021:06:26 17:57:38.266872]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-175738.JPG <- C:/DCIM/100/DSC_0084.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 11:23:13]
+ [DateTimeOriginal]=[2021:06:27 11:23:13]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:30+09:00]
+ [FileModifyDate]=[2021:06:27 11:23:14+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 02:23:09Z]
+ [ModifyDate]=[2021:06:27 11:23:13]
+ [SubSecCreateDate]=[2021:06:27 11:23:13.097183]
+ [SubSecDateTimeOriginal]=[2021:06:27 11:23:13.097183]
+ [SubSecModifyDate]=[2021:06:27 11:23:13.097183]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-112313.JPG <- C:/DCIM/100/DSC_0085.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 11:23:21]
+ [DateTimeOriginal]=[2021:06:27 11:23:21]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:31+09:00]
+ [FileModifyDate]=[2021:06:27 11:23:23+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 02:23:09Z]
+ [ModifyDate]=[2021:06:27 11:23:21]
+ [SubSecCreateDate]=[2021:06:27 11:23:21.775149]
+ [SubSecDateTimeOriginal]=[2021:06:27 11:23:21.775149]
+ [SubSecModifyDate]=[2021:06:27 11:23:21.775149]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-112321.JPG <- C:/DCIM/100/DSC_0086.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 11:23:39]
+ [DateTimeOriginal]=[2021:06:27 11:23:39]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:33+09:00]
+ [FileModifyDate]=[2021:06:27 11:23:40+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 02:23:09Z]
+ [ModifyDate]=[2021:06:27 11:23:39]
+ [SubSecCreateDate]=[2021:06:27 11:23:39.497213]
+ [SubSecDateTimeOriginal]=[2021:06:27 11:23:39.497213]
+ [SubSecModifyDate]=[2021:06:27 11:23:39.497213]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-112339.JPG <- C:/DCIM/100/DSC_0087.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:51:13]
+ [DateTimeOriginal]=[2021:06:27 15:51:13]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:33+09:00]
+ [FileModifyDate]=[2021:06:27 15:51:15+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:51:06Z]
+ [ModifyDate]=[2021:06:27 15:51:13]
+ [SubSecCreateDate]=[2021:06:27 15:51:13.780654]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:51:13.780654]
+ [SubSecModifyDate]=[2021:06:27 15:51:13.780654]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155113.JPG <- C:/DCIM/100/DSC_0088.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:51:37]
+ [DateTimeOriginal]=[2021:06:27 15:51:37]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:34+09:00]
+ [FileModifyDate]=[2021:06:27 15:51:37+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:51:06Z]
+ [ModifyDate]=[2021:06:27 15:51:37]
+ [SubSecCreateDate]=[2021:06:27 15:51:37.387447]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:51:37.387447]
+ [SubSecModifyDate]=[2021:06:27 15:51:37.387447]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155137.JPG <- C:/DCIM/100/DSC_0089.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:51:43]
+ [DateTimeOriginal]=[2021:06:27 15:51:43]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:35+09:00]
+ [FileModifyDate]=[2021:06:27 15:51:44+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:51:06Z]
+ [ModifyDate]=[2021:06:27 15:51:43]
+ [SubSecCreateDate]=[2021:06:27 15:51:43.904146]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:51:43.904146]
+ [SubSecModifyDate]=[2021:06:27 15:51:43.904146]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155143.JPG <- C:/DCIM/100/DSC_0090.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:51:47]
+ [DateTimeOriginal]=[2021:06:27 15:51:47]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:35+09:00]
+ [FileModifyDate]=[2021:06:27 15:51:47+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:51:06Z]
+ [ModifyDate]=[2021:06:27 15:51:47]
+ [SubSecCreateDate]=[2021:06:27 15:51:47.407195]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:51:47.407195]
+ [SubSecModifyDate]=[2021:06:27 15:51:47.407195]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155147.JPG <- C:/DCIM/100/DSC_0091.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:51:51]
+ [DateTimeOriginal]=[2021:06:27 15:51:51]
+ [FileAccessDate]=[2021:06:28 21:41:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:36+09:00]
+ [FileModifyDate]=[2021:06:27 15:51:51+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:51:06Z]
+ [ModifyDate]=[2021:06:27 15:51:51]
+ [SubSecCreateDate]=[2021:06:27 15:51:51.151241]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:51:51.151241]
+ [SubSecModifyDate]=[2021:06:27 15:51:51.151241]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155151.JPG <- C:/DCIM/100/DSC_0092.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:54:29]
+ [DateTimeOriginal]=[2021:06:27 15:54:29]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:37+09:00]
+ [FileModifyDate]=[2021:06:27 15:54:31+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:54:06Z]
+ [ModifyDate]=[2021:06:27 15:54:29]
+ [SubSecCreateDate]=[2021:06:27 15:54:29.964095]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:54:29.964095]
+ [SubSecModifyDate]=[2021:06:27 15:54:29.964095]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155429.JPG <- C:/DCIM/100/DSC_0093.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:54:54]
+ [DateTimeOriginal]=[2021:06:27 15:54:54]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:37+09:00]
+ [FileModifyDate]=[2021:06:27 15:54:55+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:54:06Z]
+ [ModifyDate]=[2021:06:27 15:54:54]
+ [SubSecCreateDate]=[2021:06:27 15:54:54.830505]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:54:54.830505]
+ [SubSecModifyDate]=[2021:06:27 15:54:54.830505]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155454.JPG <- C:/DCIM/100/DSC_0094.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:54:59]
+ [DateTimeOriginal]=[2021:06:27 15:54:59]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:38+09:00]
+ [FileModifyDate]=[2021:06:27 15:54:59+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:54:06Z]
+ [ModifyDate]=[2021:06:27 15:54:59]
+ [SubSecCreateDate]=[2021:06:27 15:54:59.044082]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:54:59.044082]
+ [SubSecModifyDate]=[2021:06:27 15:54:59.044082]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155459.JPG <- C:/DCIM/100/DSC_0095.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 15:55:13]
+ [DateTimeOriginal]=[2021:06:27 15:55:13]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:39+09:00]
+ [FileModifyDate]=[2021:06:27 15:55:14+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:55:06Z]
+ [ModifyDate]=[2021:06:27 15:55:13]
+ [SubSecCreateDate]=[2021:06:27 15:55:13.623795]
+ [SubSecDateTimeOriginal]=[2021:06:27 15:55:13.623795]
+ [SubSecModifyDate]=[2021:06:27 15:55:13.623795]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-155513.JPG <- C:/DCIM/100/DSC_0096.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:40:45]
+ [DateTimeOriginal]=[2021:06:27 16:40:45]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:40+09:00]
+ [FileModifyDate]=[2021:06:27 16:40:46+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:55:53Z]
+ [ModifyDate]=[2021:06:27 16:40:45]
+ [SubSecCreateDate]=[2021:06:27 16:40:45.353208]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:40:45.353208]
+ [SubSecModifyDate]=[2021:06:27 16:40:45.353208]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164045.JPG <- C:/DCIM/100/DSC_0097.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:40:50]
+ [DateTimeOriginal]=[2021:06:27 16:40:50]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:41+09:00]
+ [FileModifyDate]=[2021:06:27 16:40:51+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 06:55:53Z]
+ [ModifyDate]=[2021:06:27 16:40:50]
+ [SubSecCreateDate]=[2021:06:27 16:40:50.618517]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:40:50.618517]
+ [SubSecModifyDate]=[2021:06:27 16:40:50.618517]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164050.JPG <- C:/DCIM/100/DSC_0098.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:42:52]
+ [DateTimeOriginal]=[2021:06:27 16:42:52]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:41+09:00]
+ [FileModifyDate]=[2021:06:27 16:42:53+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:42:49Z]
+ [ModifyDate]=[2021:06:27 16:42:52]
+ [SubSecCreateDate]=[2021:06:27 16:42:52.372972]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:42:52.372972]
+ [SubSecModifyDate]=[2021:06:27 16:42:52.372972]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164252.JPG <- C:/DCIM/100/DSC_0099.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:44:16]
+ [DateTimeOriginal]=[2021:06:27 16:44:16]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:42+09:00]
+ [FileModifyDate]=[2021:06:27 16:44:16+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:42:49Z]
+ [ModifyDate]=[2021:06:27 16:44:16]
+ [SubSecCreateDate]=[2021:06:27 16:44:16.442139]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:44:16.442139]
+ [SubSecModifyDate]=[2021:06:27 16:44:16.442139]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164416.JPG <- C:/DCIM/100/DSC_0100.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:44:22]
+ [DateTimeOriginal]=[2021:06:27 16:44:22]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:43+09:00]
+ [FileModifyDate]=[2021:06:27 16:44:22+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:42:49Z]
+ [ModifyDate]=[2021:06:27 16:44:22]
+ [SubSecCreateDate]=[2021:06:27 16:44:22.368564]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:44:22.368564]
+ [SubSecModifyDate]=[2021:06:27 16:44:22.368564]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164422.JPG <- C:/DCIM/100/DSC_0101.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:46:20]
+ [DateTimeOriginal]=[2021:06:27 16:46:20]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:43+09:00]
+ [FileModifyDate]=[2021:06:27 16:46:20+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:45:41Z]
+ [ModifyDate]=[2021:06:27 16:46:20]
+ [SubSecCreateDate]=[2021:06:27 16:46:20.274016]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:46:20.274016]
+ [SubSecModifyDate]=[2021:06:27 16:46:20.274016]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164620.JPG <- C:/DCIM/100/DSC_0102.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:46:35]
+ [DateTimeOriginal]=[2021:06:27 16:46:35]
+ [FileAccessDate]=[2021:06:28 21:41:28+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:44+09:00]
+ [FileModifyDate]=[2021:06:27 16:46:35+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:45:41Z]
+ [ModifyDate]=[2021:06:27 16:46:35]
+ [SubSecCreateDate]=[2021:06:27 16:46:35.082289]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:46:35.082289]
+ [SubSecModifyDate]=[2021:06:27 16:46:35.082289]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164635.JPG <- C:/DCIM/100/DSC_0103.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:47:29]
+ [DateTimeOriginal]=[2021:06:27 16:47:29]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:45+09:00]
+ [FileModifyDate]=[2021:06:27 16:47:29+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:47:00Z]
+ [ModifyDate]=[2021:06:27 16:47:29]
+ [SubSecCreateDate]=[2021:06:27 16:47:29.304124]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:47:29.304124]
+ [SubSecModifyDate]=[2021:06:27 16:47:29.304124]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164729.JPG <- C:/DCIM/100/DSC_0104.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:47:39]
+ [DateTimeOriginal]=[2021:06:27 16:47:39]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:46+09:00]
+ [FileModifyDate]=[2021:06:27 16:47:40+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:47:00Z]
+ [ModifyDate]=[2021:06:27 16:47:39]
+ [SubSecCreateDate]=[2021:06:27 16:47:39.727018]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:47:39.727018]
+ [SubSecModifyDate]=[2021:06:27 16:47:39.727018]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-164739.JPG <- C:/DCIM/100/DSC_0105.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:52:16]
+ [DateTimeOriginal]=[2021:06:27 16:52:16]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:47+09:00]
+ [FileModifyDate]=[2021:06:27 16:52:17+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:50:39Z]
+ [ModifyDate]=[2021:06:27 16:52:16]
+ [SubSecCreateDate]=[2021:06:27 16:52:16.579709]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:52:16.579709]
+ [SubSecModifyDate]=[2021:06:27 16:52:16.579709]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165216.JPG <- C:/DCIM/100/DSC_0106.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:52:19]
+ [DateTimeOriginal]=[2021:06:27 16:52:19]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:47+09:00]
+ [FileModifyDate]=[2021:06:27 16:52:20+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:50:39Z]
+ [ModifyDate]=[2021:06:27 16:52:19]
+ [SubSecCreateDate]=[2021:06:27 16:52:19.739593]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:52:19.739593]
+ [SubSecModifyDate]=[2021:06:27 16:52:19.739593]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165219.JPG <- C:/DCIM/100/DSC_0107.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:52:48]
+ [DateTimeOriginal]=[2021:06:27 16:52:48]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:49+09:00]
+ [FileModifyDate]=[2021:06:27 16:52:48+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:50:39Z]
+ [ModifyDate]=[2021:06:27 16:52:48]
+ [SubSecCreateDate]=[2021:06:27 16:52:48.070886]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:52:48.070886]
+ [SubSecModifyDate]=[2021:06:27 16:52:48.070886]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165248.JPG <- C:/DCIM/100/DSC_0108.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:53:42]
+ [DateTimeOriginal]=[2021:06:27 16:53:42]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:50+09:00]
+ [FileModifyDate]=[2021:06:27 16:53:43+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:53:13Z]
+ [ModifyDate]=[2021:06:27 16:53:42]
+ [SubSecCreateDate]=[2021:06:27 16:53:42.020707]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:53:42.020707]
+ [SubSecModifyDate]=[2021:06:27 16:53:42.020707]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165342.JPG <- C:/DCIM/100/DSC_0109.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:55:10]
+ [DateTimeOriginal]=[2021:06:27 16:55:10]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:51+09:00]
+ [FileModifyDate]=[2021:06:27 16:55:10+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:54:15Z]
+ [ModifyDate]=[2021:06:27 16:55:10]
+ [SubSecCreateDate]=[2021:06:27 16:55:10.351890]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:55:10.351890]
+ [SubSecModifyDate]=[2021:06:27 16:55:10.351890]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165510.JPG <- C:/DCIM/100/DSC_0110.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:55:23]
+ [DateTimeOriginal]=[2021:06:27 16:55:23]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:51+09:00]
+ [FileModifyDate]=[2021:06:27 16:55:23+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:54:15Z]
+ [ModifyDate]=[2021:06:27 16:55:23]
+ [SubSecCreateDate]=[2021:06:27 16:55:23.158527]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:55:23.158527]
+ [SubSecModifyDate]=[2021:06:27 16:55:23.158527]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165523.JPG <- C:/DCIM/100/DSC_0111.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:56:03]
+ [DateTimeOriginal]=[2021:06:27 16:56:03]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:52+09:00]
+ [FileModifyDate]=[2021:06:27 16:56:04+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:54:15Z]
+ [ModifyDate]=[2021:06:27 16:56:03]
+ [SubSecCreateDate]=[2021:06:27 16:56:03.866090]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:56:03.866090]
+ [SubSecModifyDate]=[2021:06:27 16:56:03.866090]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165603.JPG <- C:/DCIM/100/DSC_0112.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:56:10]
+ [DateTimeOriginal]=[2021:06:27 16:56:10]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:53+09:00]
+ [FileModifyDate]=[2021:06:27 16:56:10+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:54:15Z]
+ [ModifyDate]=[2021:06:27 16:56:10]
+ [SubSecCreateDate]=[2021:06:27 16:56:10.497360]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:56:10.497360]
+ [SubSecModifyDate]=[2021:06:27 16:56:10.497360]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165610.JPG <- C:/DCIM/100/DSC_0113.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 16:56:18]
+ [DateTimeOriginal]=[2021:06:27 16:56:18]
+ [FileAccessDate]=[2021:06:28 21:41:27+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:55+09:00]
+ [FileModifyDate]=[2021:06:27 16:56:18+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 07:54:15Z]
+ [ModifyDate]=[2021:06:27 16:56:18]
+ [SubSecCreateDate]=[2021:06:27 16:56:18.627241]
+ [SubSecDateTimeOriginal]=[2021:06:27 16:56:18.627241]
+ [SubSecModifyDate]=[2021:06:27 16:56:18.627241]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-165618.JPG <- C:/DCIM/100/DSC_0114.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 17:21:55]
+ [DateTimeOriginal]=[2021:06:27 17:21:55]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:55+09:00]
+ [FileModifyDate]=[2021:06:27 17:21:57+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 17:21:55]
+ [SubSecCreateDate]=[2021:06:27 17:21:55.851323]
+ [SubSecDateTimeOriginal]=[2021:06:27 17:21:55.851323]
+ [SubSecModifyDate]=[2021:06:27 17:21:55.851323]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-172155.JPG <- C:/DCIM/100/DSC_0115.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 17:22:00]
+ [DateTimeOriginal]=[2021:06:27 17:22:00]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:56+09:00]
+ [FileModifyDate]=[2021:06:27 17:22:00+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 17:22:00]
+ [SubSecCreateDate]=[2021:06:27 17:22:00.253261]
+ [SubSecDateTimeOriginal]=[2021:06:27 17:22:00.253261]
+ [SubSecModifyDate]=[2021:06:27 17:22:00.253261]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-172200.JPG <- C:/DCIM/100/DSC_0116.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 17:22:12]
+ [DateTimeOriginal]=[2021:06:27 17:22:12]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:56+09:00]
+ [FileModifyDate]=[2021:06:27 17:22:13+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 17:22:12]
+ [SubSecCreateDate]=[2021:06:27 17:22:12.038973]
+ [SubSecDateTimeOriginal]=[2021:06:27 17:22:12.038973]
+ [SubSecModifyDate]=[2021:06:27 17:22:12.038973]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-172212.JPG <- C:/DCIM/100/DSC_0117.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 17:22:32]
+ [DateTimeOriginal]=[2021:06:27 17:22:32]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:57+09:00]
+ [FileModifyDate]=[2021:06:27 17:22:33+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 17:22:32]
+ [SubSecCreateDate]=[2021:06:27 17:22:32.716018]
+ [SubSecDateTimeOriginal]=[2021:06:27 17:22:32.716018]
+ [SubSecModifyDate]=[2021:06:27 17:22:32.716018]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-172232.JPG <- C:/DCIM/100/DSC_0118.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 17:22:53]
+ [DateTimeOriginal]=[2021:06:27 17:22:53]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:58+09:00]
+ [FileModifyDate]=[2021:06:27 17:22:54+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 17:22:53]
+ [SubSecCreateDate]=[2021:06:27 17:22:53.749412]
+ [SubSecDateTimeOriginal]=[2021:06:27 17:22:53.749412]
+ [SubSecModifyDate]=[2021:06:27 17:22:53.749412]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-172253.JPG <- C:/DCIM/100/DSC_0119.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 18:54:23]
+ [DateTimeOriginal]=[2021:06:27 18:54:23]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:59+09:00]
+ [FileModifyDate]=[2021:06:27 18:54:24+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 18:54:23]
+ [SubSecCreateDate]=[2021:06:27 18:54:23.819985]
+ [SubSecDateTimeOriginal]=[2021:06:27 18:54:23.819985]
+ [SubSecModifyDate]=[2021:06:27 18:54:23.819985]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-185423.JPG <- C:/DCIM/100/DSC_0120.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 18:54:29]
+ [DateTimeOriginal]=[2021:06:27 18:54:29]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:40:59+09:00]
+ [FileModifyDate]=[2021:06:27 18:54:30+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 18:54:29]
+ [SubSecCreateDate]=[2021:06:27 18:54:29.640335]
+ [SubSecDateTimeOriginal]=[2021:06:27 18:54:29.640335]
+ [SubSecModifyDate]=[2021:06:27 18:54:29.640335]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-185429.JPG <- C:/DCIM/100/DSC_0121.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 18:54:34]
+ [DateTimeOriginal]=[2021:06:27 18:54:34]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:01+09:00]
+ [FileModifyDate]=[2021:06:27 18:54:36+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 18:54:34]
+ [SubSecCreateDate]=[2021:06:27 18:54:34.292734]
+ [SubSecDateTimeOriginal]=[2021:06:27 18:54:34.292734]
+ [SubSecModifyDate]=[2021:06:27 18:54:34.292734]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-185434.JPG <- C:/DCIM/100/DSC_0122.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 18:54:37]
+ [DateTimeOriginal]=[2021:06:27 18:54:37]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:03+09:00]
+ [FileModifyDate]=[2021:06:27 18:54:38+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 18:54:37]
+ [SubSecCreateDate]=[2021:06:27 18:54:37.901362]
+ [SubSecDateTimeOriginal]=[2021:06:27 18:54:37.901362]
+ [SubSecModifyDate]=[2021:06:27 18:54:37.901362]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-185437.JPG <- C:/DCIM/100/DSC_0123.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 18:54:45]
+ [DateTimeOriginal]=[2021:06:27 18:54:45]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:04+09:00]
+ [FileModifyDate]=[2021:06:27 18:54:46+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 08:16:41Z]
+ [ModifyDate]=[2021:06:27 18:54:45]
+ [SubSecCreateDate]=[2021:06:27 18:54:45.054902]
+ [SubSecDateTimeOriginal]=[2021:06:27 18:54:45.054902]
+ [SubSecModifyDate]=[2021:06:27 18:54:45.054902]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-185445.JPG <- C:/DCIM/100/DSC_0124.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 22:12:08]
+ [DateTimeOriginal]=[2021:06:27 22:12:08]
+ [FileAccessDate]=[2021:06:28 21:41:26+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:06+09:00]
+ [FileModifyDate]=[2021:06:27 22:12:10+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 11:19:35Z]
+ [ModifyDate]=[2021:06:27 22:12:08]
+ [SubSecCreateDate]=[2021:06:27 22:12:08.891373]
+ [SubSecDateTimeOriginal]=[2021:06:27 22:12:08.891373]
+ [SubSecModifyDate]=[2021:06:27 22:12:08.891373]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-221208.JPG <- C:/DCIM/100/DSC_0125.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 22:14:00]
+ [DateTimeOriginal]=[2021:06:27 22:14:00]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:07+09:00]
+ [FileModifyDate]=[2021:06:27 22:14:02+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 11:19:35Z]
+ [ModifyDate]=[2021:06:27 22:14:00]
+ [SubSecCreateDate]=[2021:06:27 22:14:00.924059]
+ [SubSecDateTimeOriginal]=[2021:06:27 22:14:00.924059]
+ [SubSecModifyDate]=[2021:06:27 22:14:00.924059]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-221400.JPG <- C:/DCIM/100/DSC_0126.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 23:47:03]
+ [DateTimeOriginal]=[2021:06:27 23:47:03]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:07+09:00]
+ [FileModifyDate]=[2021:06:27 23:47:05+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 14:46:59Z]
+ [ModifyDate]=[2021:06:27 23:47:03]
+ [SubSecCreateDate]=[2021:06:27 23:47:03.501106]
+ [SubSecDateTimeOriginal]=[2021:06:27 23:47:03.501106]
+ [SubSecModifyDate]=[2021:06:27 23:47:03.501106]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-234703.JPG <- C:/DCIM/100/DSC_0127.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 23:47:09]
+ [DateTimeOriginal]=[2021:06:27 23:47:09]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:08+09:00]
+ [FileModifyDate]=[2021:06:27 23:47:11+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 14:46:59Z]
+ [ModifyDate]=[2021:06:27 23:47:09]
+ [SubSecCreateDate]=[2021:06:27 23:47:09.796536]
+ [SubSecDateTimeOriginal]=[2021:06:27 23:47:09.796536]
+ [SubSecModifyDate]=[2021:06:27 23:47:09.796536]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-234709.JPG <- C:/DCIM/100/DSC_0128.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 23:47:27]
+ [DateTimeOriginal]=[2021:06:27 23:47:27]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:09+09:00]
+ [FileModifyDate]=[2021:06:27 23:47:29+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 14:46:59Z]
+ [ModifyDate]=[2021:06:27 23:47:27]
+ [SubSecCreateDate]=[2021:06:27 23:47:27.847231]
+ [SubSecDateTimeOriginal]=[2021:06:27 23:47:27.847231]
+ [SubSecModifyDate]=[2021:06:27 23:47:27.847231]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-234727.JPG <- C:/DCIM/100/DSC_0129.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:27 23:47:38]
+ [DateTimeOriginal]=[2021:06:27 23:47:38]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:10+09:00]
+ [FileModifyDate]=[2021:06:27 23:47:39+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 14:46:59Z]
+ [ModifyDate]=[2021:06:27 23:47:38]
+ [SubSecCreateDate]=[2021:06:27 23:47:38.511759]
+ [SubSecDateTimeOriginal]=[2021:06:27 23:47:38.511759]
+ [SubSecModifyDate]=[2021:06:27 23:47:38.511759]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210627/20210627-234738.JPG <- C:/DCIM/100/DSC_0130.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 00:51:01]
+ [DateTimeOriginal]=[2021:06:28 00:51:01]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:12+09:00]
+ [FileModifyDate]=[2021:06:28 00:51:02+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 14:46:59Z]
+ [ModifyDate]=[2021:06:28 00:51:01]
+ [SubSecCreateDate]=[2021:06:28 00:51:01.028428]
+ [SubSecDateTimeOriginal]=[2021:06:28 00:51:01.028428]
+ [SubSecModifyDate]=[2021:06:28 00:51:01.028428]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-005101.JPG <- C:/DCIM/100/DSC_0131.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 10:40:23]
+ [DateTimeOriginal]=[2021:06:28 10:40:23]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:12+09:00]
+ [FileModifyDate]=[2021:06:28 10:40:25+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 15:53:38Z]
+ [ModifyDate]=[2021:06:28 10:40:23]
+ [SubSecCreateDate]=[2021:06:28 10:40:23.616591]
+ [SubSecDateTimeOriginal]=[2021:06:28 10:40:23.616591]
+ [SubSecModifyDate]=[2021:06:28 10:40:23.616591]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-104023.JPG <- C:/DCIM/100/DSC_0132.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 10:41:18]
+ [DateTimeOriginal]=[2021:06:28 10:41:18]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:13+09:00]
+ [FileModifyDate]=[2021:06:28 10:41:19+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 15:53:38Z]
+ [ModifyDate]=[2021:06:28 10:41:18]
+ [SubSecCreateDate]=[2021:06:28 10:41:18.855045]
+ [SubSecDateTimeOriginal]=[2021:06:28 10:41:18.855045]
+ [SubSecModifyDate]=[2021:06:28 10:41:18.855045]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-104118.JPG <- C:/DCIM/100/DSC_0133.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 16:57:44]
+ [DateTimeOriginal]=[2021:06:28 16:57:44]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:14+09:00]
+ [FileModifyDate]=[2021:06:28 16:57:46+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 15:53:38Z]
+ [ModifyDate]=[2021:06:28 16:57:44]
+ [SubSecCreateDate]=[2021:06:28 16:57:44.611327]
+ [SubSecDateTimeOriginal]=[2021:06:28 16:57:44.611327]
+ [SubSecModifyDate]=[2021:06:28 16:57:44.611327]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-165744.JPG <- C:/DCIM/100/DSC_0134.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 16:57:50]
+ [DateTimeOriginal]=[2021:06:28 16:57:50]
+ [FileAccessDate]=[2021:06:28 21:41:25+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:14+09:00]
+ [FileModifyDate]=[2021:06:28 16:57:51+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 15:53:38Z]
+ [ModifyDate]=[2021:06:28 16:57:50]
+ [SubSecCreateDate]=[2021:06:28 16:57:50.235671]
+ [SubSecDateTimeOriginal]=[2021:06:28 16:57:50.235671]
+ [SubSecModifyDate]=[2021:06:28 16:57:50.235671]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-165750.JPG <- C:/DCIM/100/DSC_0135.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:15:34]
+ [DateTimeOriginal]=[2021:06:26 11:15:34]
+ [FileAccessDate]=[2021:06:28 21:41:53+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:52+09:00]
+ [FileModifyDate]=[2021:06:26 11:15:35+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:15:18Z]
+ [ModifyDate]=[2021:06:26 11:15:34]
+ [SubSecCreateDate]=[2021:06:26 11:15:34.873258]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:15:34.873258]
+ [SubSecModifyDate]=[2021:06:26 11:15:34.873258]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111534.JPG <- C:/DCIM/100IN/DSC_0001.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 11:18:10]
+ [DateTimeOriginal]=[2021:06:26 11:18:10]
+ [FileAccessDate]=[2021:06:28 21:41:53+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:52+09:00]
+ [FileModifyDate]=[2021:06:26 11:18:11+09:00]
+ [GPSDateStamp]=[2021:06:26]
+ [GPSDateTime]=[2021:06:26 02:15:50Z]
+ [ModifyDate]=[2021:06:26 11:18:10]
+ [SubSecCreateDate]=[2021:06:26 11:18:10.102811]
+ [SubSecDateTimeOriginal]=[2021:06:26 11:18:10.102811]
+ [SubSecModifyDate]=[2021:06:26 11:18:10.102811]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-111810.JPG <- C:/DCIM/100IN/DSC_0002.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:26 14:51:41]
+ [DateTimeOriginal]=[2021:06:26 14:51:41]
+ [FileAccessDate]=[2021:06:28 21:41:53+09:00]
+ [FileCreateDate]=[2021:06:28 21:41:52+09:00]
+ [FileModifyDate]=[2021:06:26 14:51:41+09:00]
+ [ModifyDate]=[2021:06:26 14:51:41]
+ [SubSecCreateDate]=[2021:06:26 14:51:41.032675]
+ [SubSecDateTimeOriginal]=[2021:06:26 14:51:41.032675]
+ [SubSecModifyDate]=[2021:06:26 14:51:41.032675]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-145141.JPG <- C:/DCIM/100IN/DSC_0003.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 02:13:38]
+ [DateTimeOriginal]=[2021:06:24 02:13:38]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:01+09:00]
+ [FileModifyDate]=[2021:06:24 02:13:39+09:00]
+ [GPSDateStamp]=[2021:06:23]
+ [GPSDateTime]=[2021:06:23 17:13:13Z]
+ [ModifyDate]=[2021:06:24 02:13:38]
+ [SubSecCreateDate]=[2021:06:24 02:13:38.635379]
+ [SubSecDateTimeOriginal]=[2021:06:24 02:13:38.635379]
+ [SubSecModifyDate]=[2021:06:24 02:13:38.635379]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-021338.JPG <- C:/DCIM/DSC_0001.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 15:18:45]
+ [DateTimeOriginal]=[2021:06:24 15:18:45]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:02+09:00]
+ [FileModifyDate]=[2021:06:24 15:18:48+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 06:18:39Z]
+ [ModifyDate]=[2021:06:24 15:18:45]
+ [SubSecCreateDate]=[2021:06:24 15:18:45.698193]
+ [SubSecDateTimeOriginal]=[2021:06:24 15:18:45.698193]
+ [SubSecModifyDate]=[2021:06:24 15:18:45.698193]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-151845.JPG <- C:/DCIM/DSC_0002.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 15:18:48]
+ [DateTimeOriginal]=[2021:06:24 15:18:48]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:02+09:00]
+ [FileModifyDate]=[2021:06:24 15:18:51+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 06:18:39Z]
+ [ModifyDate]=[2021:06:24 15:18:48]
+ [SubSecCreateDate]=[2021:06:24 15:18:48.446140]
+ [SubSecDateTimeOriginal]=[2021:06:24 15:18:48.446140]
+ [SubSecModifyDate]=[2021:06:24 15:18:48.446140]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-151848.JPG <- C:/DCIM/DSC_0003.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 15:18:55]
+ [DateTimeOriginal]=[2021:06:24 15:18:55]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:03+09:00]
+ [FileModifyDate]=[2021:06:24 15:19:01+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 06:18:39Z]
+ [ModifyDate]=[2021:06:24 15:18:55]
+ [SubSecCreateDate]=[2021:06:24 15:18:55.901335]
+ [SubSecDateTimeOriginal]=[2021:06:24 15:18:55.901335]
+ [SubSecModifyDate]=[2021:06:24 15:18:55.901335]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-151855.JPG <- C:/DCIM/DSC_0004.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 20:11:52]
+ [DateTimeOriginal]=[2021:06:24 20:11:52]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:04+09:00]
+ [FileModifyDate]=[2021:06:24 20:11:55+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 11:11:42Z]
+ [ModifyDate]=[2021:06:24 20:11:52]
+ [SubSecCreateDate]=[2021:06:24 20:11:52.989289]
+ [SubSecDateTimeOriginal]=[2021:06:24 20:11:52.989289]
+ [SubSecModifyDate]=[2021:06:24 20:11:52.989289]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-201152.JPG <- C:/DCIM/DSC_0005.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 20:12:05]
+ [DateTimeOriginal]=[2021:06:24 20:12:05]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:04+09:00]
+ [FileModifyDate]=[2021:06:24 20:12:06+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 11:11:42Z]
+ [ModifyDate]=[2021:06:24 20:12:05]
+ [SubSecCreateDate]=[2021:06:24 20:12:05.947163]
+ [SubSecDateTimeOriginal]=[2021:06:24 20:12:05.947163]
+ [SubSecModifyDate]=[2021:06:24 20:12:05.947163]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-201205.JPG <- C:/DCIM/DSC_0006.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 20:12:51]
+ [DateTimeOriginal]=[2021:06:24 20:12:51]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:05+09:00]
+ [FileModifyDate]=[2021:06:24 20:12:51+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 11:12:42Z]
+ [ModifyDate]=[2021:06:24 20:12:51]
+ [SubSecCreateDate]=[2021:06:24 20:12:51.299615]
+ [SubSecDateTimeOriginal]=[2021:06:24 20:12:51.299615]
+ [SubSecModifyDate]=[2021:06:24 20:12:51.299615]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-201251.JPG <- C:/DCIM/DSC_0007.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 20:13:05]
+ [DateTimeOriginal]=[2021:06:24 20:13:05]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:05+09:00]
+ [FileModifyDate]=[2021:06:24 20:13:05+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 11:12:42Z]
+ [ModifyDate]=[2021:06:24 20:13:05]
+ [SubSecCreateDate]=[2021:06:24 20:13:05.097995]
+ [SubSecDateTimeOriginal]=[2021:06:24 20:13:05.097995]
+ [SubSecModifyDate]=[2021:06:24 20:13:05.097995]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-201305.JPG <- C:/DCIM/DSC_0008.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:24 20:13:58]
+ [DateTimeOriginal]=[2021:06:24 20:13:58]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:06+09:00]
+ [FileModifyDate]=[2021:06:24 20:13:58+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 11:13:55Z]
+ [ModifyDate]=[2021:06:24 20:13:58]
+ [SubSecCreateDate]=[2021:06:24 20:13:58.327541]
+ [SubSecDateTimeOriginal]=[2021:06:24 20:13:58.327541]
+ [SubSecModifyDate]=[2021:06:24 20:13:58.327541]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-201358.JPG <- C:/DCIM/DSC_0009.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:25 14:48:40]
+ [DateTimeOriginal]=[2021:06:25 14:48:40]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:07+09:00]
+ [FileModifyDate]=[2021:06:25 14:48:44+09:00]
+ [ModifyDate]=[2021:06:25 14:48:40]
+ [SubSecCreateDate]=[2021:06:25 14:48:40.333610]
+ [SubSecDateTimeOriginal]=[2021:06:25 14:48:40.333610]
+ [SubSecModifyDate]=[2021:06:25 14:48:40.333610]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210625/20210625-144840.JPG <- C:/DCIM/DSC_0010.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:25 14:49:06]
+ [DateTimeOriginal]=[2021:06:25 14:49:06]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:07+09:00]
+ [FileModifyDate]=[2021:06:25 14:49:08+09:00]
+ [GPSDateStamp]=[2021:06:24]
+ [GPSDateTime]=[2021:06:24 23:26:41Z]
+ [ModifyDate]=[2021:06:25 14:49:06]
+ [SubSecCreateDate]=[2021:06:25 14:49:06.930931]
+ [SubSecDateTimeOriginal]=[2021:06:25 14:49:06.930931]
+ [SubSecModifyDate]=[2021:06:25 14:49:06.930931]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210625/20210625-144906.JPG <- C:/DCIM/DSC_0011.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:25 14:49:13]
+ [DateTimeOriginal]=[2021:06:25 14:49:13]
+ [FileAccessDate]=[2021:06:28 21:46:14+09:00]
+ [FileCreateDate]=[2021:06:28 21:38:08+09:00]
+ [FileModifyDate]=[2021:06:25 14:49:13+09:00]
+ [GPSDateStamp]=[2021:06:25]
+ [GPSDateTime]=[2021:06:25 05:49:14Z]
+ [ModifyDate]=[2021:06:25 14:49:13]
+ [SubSecCreateDate]=[2021:06:25 14:49:13.500511]
+ [SubSecDateTimeOriginal]=[2021:06:25 14:49:13.500511]
+ [SubSecModifyDate]=[2021:06:25 14:49:13.500511]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210625/20210625-144913.JPG <- C:/DCIM/DSC_0012.JPG
+exifInfo->>
+ [CreateDate]=[2021:06:28 00:52:43]
+ [DateTimeOriginal]=[2021:06:28 00:52:43]
+ [FileAccessDate]=[2021:06:28 21:45:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:44:53+09:00]
+ [FileModifyDate]=[2021:06:28 00:52:44+09:00]
+ [GPSDateStamp]=[2021:06:27]
+ [GPSDateTime]=[2021:06:27 15:52:29Z]
+ [ModifyDate]=[2021:06:28 00:52:43]
+ [SubSecCreateDate]=[2021:06:28 00:52:43.993477]
+ [SubSecDateTimeOriginal]=[2021:06:28 00:52:43.993477]
+ [SubSecModifyDate]=[2021:06:28 00:52:43.993477]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210628/20210628-005243.JPG <- C:/DCIM/int_DCIM/DSC_0001.JPG
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:28+09:00]
+ [FileModifyDate]=[2021:06:24 02:10:54+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-021054.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021053.png
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:28+09:00]
+ [FileModifyDate]=[2021:06:24 02:11:03+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-021103.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021102.png
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:32+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:28+09:00]
+ [FileModifyDate]=[2021:06:24 02:12:01+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-021201.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021200.png
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:30+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:28+09:00]
+ [FileModifyDate]=[2021:06:24 02:15:14+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210624/20210624-021514.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210624-021513.png
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:29+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:28+09:00]
+ [FileModifyDate]=[2021:06:26 16:15:39+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-161539.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210626-161537.png
+exifInfo->>
+ [FileAccessDate]=[2021:06:28 21:45:33+09:00]
+ [FileCreateDate]=[2021:06:28 21:45:29+09:00]
+ [FileModifyDate]=[2021:06:26 17:59:02+09:00]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-175902.png <- C:/DCIM/int_DCIM/Screenshots/Screenshot_20210626-175901.png
+exifInfo->>
+ [CreateDate]=[2021:06:26 02:14:26]
+ [FileAccessDate]=[2021:06:28 21:43:36+09:00]
+ [FileCreateDate]=[2021:06:28 21:43:33+09:00]
+ [FileModifyDate]=[2021:06:26 11:14:28+09:00]
+ [MediaCreateDate]=[2021:06:26 02:14:26]
+ [MediaCreateDate (1)]=[2021:06:26 02:14:26]
+ [MediaModifyDate]=[2021:06:26 02:14:26]
+ [MediaModifyDate (1)]=[2021:06:26 02:14:26]
+ [ModifyDate]=[2021:06:26 02:14:26]
+ [TrackCreateDate]=[2021:06:26 02:14:26]
+ [TrackCreateDate (1)]=[2021:06:26 02:14:26]
+ [TrackModifyDate]=[2021:06:26 02:14:26]
+ [TrackModifyDate (1)]=[2021:06:26 02:14:26]
+exifInfo-<<
+o /doc/pictures/Camera/Album/2021/20210626/20210626-021426.mp4 <- C:/DCIM/SharpSlowVideo/120fps/210626_111418.mp4
+
+ End of Photo Rename.

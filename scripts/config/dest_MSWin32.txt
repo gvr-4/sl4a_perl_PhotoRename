@@ -1,0 +1,9 @@
+##
+## photorename/config/dest_MSWin32.txt
+## 画像移動先
+## 有効なのは最初に見つけた1行だけ．
+## UTF-8,Cr
+##
+#/doc/pictures/Camera/Album_SH403
+#/doc/pictures/Camera/Album_SH403_SD
+/doc/pictures/Camera/Album
